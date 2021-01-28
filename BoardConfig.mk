@@ -61,6 +61,10 @@ TARGET_KERNEL_VERSION := 4.9
 # Use clang 11
 #TARGET_KERNEL_CLANG_COMPILE := true
 
+#GCC
+CROSS_COMPILE := $(shell pwd)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+CROSS_COMPILE_ARM32 := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm/linux/androideabi-4.9/bin/arm-linux-androideabi-
+
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
