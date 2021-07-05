@@ -378,6 +378,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
+# Performance
+PRODUCT_PACKAGES += \
+    powerctl
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
