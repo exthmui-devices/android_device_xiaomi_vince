@@ -1,0 +1,28 @@
+[
+  {
+    "repository" : "proprietary_vendor_xiaomi_vince",
+    "target_path": "vendor/xiaomi/vince"
+  },
+  {
+    "repository" : "android_kernel_xiaomi_vince",
+    "target_path": "kernel/xiaomi/vince"
+  },
+  {
+      "repository":"aseelps/hardware_qcom_display_msm8996-vince",
+      "target_path":"hardware/qcom-caf/msm8996-vince/display",
+      "branch":"r11.0",
+      "remote":"github"
+   },
+   {
+      "repository":"aseelps/hardware_qcom_audio_msm8996-vince",
+      "target_path":"hardware/qcom-caf/msm8996-vince/audio",
+      "branch":"r11.0",
+      "remote":"github"
+   },
+   {
+      "repository":"aseelps/hardware_qcom_media_msm8996-vince",
+      "target_path":"hardware/qcom-caf/msm8996-vince/media",
+      "branch":"r11.0",
+      "remote":"github"
+   }
+]
