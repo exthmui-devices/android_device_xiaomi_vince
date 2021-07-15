@@ -29,7 +29,7 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Inherit some common exTHmUI stuff.
 $(call inherit-product, vendor/exthm/config/common.mk)
-TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_DISABLE_POSTRENDER_CLEANUP := true
 
 # Device identifier. This must come after all inclusions
