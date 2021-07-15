@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_vince.mk
+    $(LOCAL_DIR)/exthm_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_vince-user \
-    derp_vince-userdebug \
-    derp_vince-eng
+    exthm_vince-user \
+    exthm_vince-userdebug \
+    exthm_vince-eng
